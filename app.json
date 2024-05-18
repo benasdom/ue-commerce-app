@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ue-commerce",
+    "slug": "ue-commerce",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#161c23"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 60000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000319"
+      },
+      "package": "uesales.apk"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "37315e62-c8cd-46d1-ae59-102131675235"
+      }
+    }
+  }
+}
